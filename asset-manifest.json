@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SoftRyzen/static/css/main.7acaea2f.css",
+    "main.js": "/SoftRyzen/static/js/main.07d3183d.js",
+    "index.html": "/SoftRyzen/index.html",
+    "main.7acaea2f.css.map": "/SoftRyzen/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/SoftRyzen/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
