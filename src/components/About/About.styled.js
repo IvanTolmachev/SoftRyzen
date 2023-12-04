@@ -65,12 +65,13 @@ export const AboutDescription = styled.div`
 export const AboutBlock = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 24px;
 
   ${variables.breakPoints.tablet} {
     width: calc((100% - 24px) / 2);
   }
   ${variables.breakPoints.desktop} {
+    gap: 48px;
     width: calc((100% - 48px) / 2);
   }
 `;

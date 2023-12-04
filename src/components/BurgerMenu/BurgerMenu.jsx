@@ -27,11 +27,29 @@ const BurgerMenu = ({ toggleMenu }) => {
         <div>
           <List>
             <ListItem>
-              <NavLinks to="#">Main</NavLinks>
+              <NavLinks
+                activeClass="active"
+                to="main"
+                spy={true}
+                smooth={true}
+                offset={-170}
+                duration={500}
+              >
+                Main
+              </NavLinks>
               <IconArrows />
             </ListItem>
             <ListItem>
-              <NavLinks to="#">About</NavLinks>
+              <NavLinks
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-170}
+                duration={500}
+              >
+                About
+              </NavLinks>
               <IconArrows />
             </ListItem>
             <ListItem>
@@ -39,7 +57,16 @@ const BurgerMenu = ({ toggleMenu }) => {
               <IconArrows />
             </ListItem>
             <ListItem>
-              <NavLinks to="#">FAQ</NavLinks>
+              <NavLinks
+                activeClass="active"
+                to="FAQ"
+                spy={true}
+                smooth={true}
+                offset={-170}
+                duration={500}
+              >
+                FAQ
+              </NavLinks>
               <IconArrows />
             </ListItem>
             <ListItem>
@@ -48,7 +75,7 @@ const BurgerMenu = ({ toggleMenu }) => {
                 to="contact"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-150}
                 duration={500}
               >
                 Contact Us

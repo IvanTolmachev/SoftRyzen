@@ -12,7 +12,7 @@ import {
 
 const ContactUs = () => {
   return (
-    <Section title="contact" id="contact">
+    <Section id="contact">
       <ContactTitle>Contact us</ContactTitle>
       <ContactUsBox>
         <List>
@@ -41,13 +41,13 @@ const ContactUs = () => {
           </Item>
           <Item>
             <Title>Social Networks:</Title>
-            <a href="https://facebook.com">2222</a>
-            <a href="https://instagtam.com">2222</a>
+            <a href="https://facebook.com">facebook</a>
+            <a href="https://instagtam.com">instagram</a>
           </Item>
         </List>
       </ContactUsBox>
 
-      <div>FORM</div>
+      <div></div>
     </Section>
   );
 };

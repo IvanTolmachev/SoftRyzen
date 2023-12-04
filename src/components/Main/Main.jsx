@@ -25,7 +25,7 @@ const MainComponent = () => {
     console.log('Button clicked!');
   };
   return (
-    <Section>
+    <Section id="main">
       <HeroTopText>
         <HeroTitleBox>
           <HeroTitle>Renewable energy for any task</HeroTitle>

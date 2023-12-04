@@ -28,6 +28,6 @@
   backdrop-filter: blur(2px);
 }
 
-.nav-item > .active {
-  color: #97d28b;
+.active {
+  color: #97d28b !important;
 }

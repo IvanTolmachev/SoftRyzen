@@ -70,7 +70,7 @@ const FAQComponent = () => {
   ];
 
   return (
-    <Section>
+    <Section id="FAQ">
       <FAQBlock>
         <FAQTitle>
           Frequently Asked <br /> Questions

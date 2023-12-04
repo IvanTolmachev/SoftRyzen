@@ -19,7 +19,7 @@ import {
 
 const AboutComponent = () => {
   return (
-    <Section>
+    <Section id="about">
       <MainValues>
         <MainTitle>Main values of our company</MainTitle>
         <MainDescription>
