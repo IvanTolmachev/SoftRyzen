@@ -14,6 +14,7 @@ import {
   MainDescription,
   MainTitle,
   MainValues,
+  Picture,
 } from './About.styled';
 
 const AboutComponent = () => {
@@ -46,22 +47,22 @@ const AboutComponent = () => {
               </AboutText>
             </AboutItem>
           </AboutList>
-          <picture>
+          <Picture>
             <source
               srcSet={`${About1Img1x} 1x, ${About1Img2x} 2x`}
               type="image/jpeg"
             />
             <img src={About1Img1x} alt="AboutImage" />
-          </picture>
+          </Picture>
         </AboutBlock>
         <AboutBlock>
-          <picture>
+          <Picture>
             <source
               srcSet={`${About2Img1x} 1x, ${About2Img2x} 2x`}
               type="image/jpeg"
             />
             <img src={About2Img1x} alt="AboutImage" />
-          </picture>
+          </Picture>
           <AboutList>
             <AboutItem>
               <AboutTitle>Innovation</AboutTitle>

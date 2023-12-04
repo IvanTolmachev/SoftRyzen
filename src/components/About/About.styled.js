@@ -51,10 +51,12 @@ export const MainDescription = styled.p`
 `;
 
 export const AboutDescription = styled.div`
+  display: flex;
   gap: 24px;
-  ${variables.breakPoints.tablet} {
-    display: flex;
+  ${variables.breakPoints.onlyMobile} {
+    flex-direction: column;
   }
+
   ${variables.breakPoints.desktop} {
     gap: 48px;
   }
@@ -80,6 +82,12 @@ export const AboutList = styled.ul`
   }
   ${variables.breakPoints.desktop} {
     gap: 48px;
+  }
+`;
+
+export const Picture = styled.picture`
+  ${variables.breakPoints.onlyMobile} {
+    display: none;
   }
 `;
 
