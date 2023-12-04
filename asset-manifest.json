@@ -1,13 +1,24 @@
 {
   "files": {
-    "main.css": "/SoftRyzen/static/css/main.7acaea2f.css",
-    "main.js": "/SoftRyzen/static/js/main.07d3183d.js",
+    "main.css": "/SoftRyzen/static/css/main.41b09c37.css",
+    "main.js": "/SoftRyzen/static/js/main.ebe9d216.js",
+    "static/media/heroImgx2.jpg": "/SoftRyzen/static/media/heroImgx2.4998894fa9c548f2668b.jpg",
+    "static/media/heroImgTabletx2.jpg": "/SoftRyzen/static/media/heroImgTabletx2.53561f2cccfe50f75ce7.jpg",
+    "static/media/heroImgx1.jpg": "/SoftRyzen/static/media/heroImgx1.ba6d427292c9db31412b.jpg",
+    "static/media/About1@2x.jpg": "/SoftRyzen/static/media/About1@2x.aa3adc31192f8685038e.jpg",
+    "static/media/About2@2x.jpg": "/SoftRyzen/static/media/About2@2x.3c0d450276da90374521.jpg",
+    "static/media/heroImgPhonex2.jpg": "/SoftRyzen/static/media/heroImgPhonex2.2578185190ed9cd09629.jpg",
+    "static/media/heroImgTabletx1.jpg": "/SoftRyzen/static/media/heroImgTabletx1.52674b0b82b02594c72d.jpg",
+    "static/media/About1@1x.jpg": "/SoftRyzen/static/media/About1@1x.28fd1a7a9c0383320458.jpg",
+    "static/media/About2@1x.jpg": "/SoftRyzen/static/media/About2@1x.d4c562f8ae3d54987489.jpg",
+    "static/media/heroImgPhonex1.jpg": "/SoftRyzen/static/media/heroImgPhonex1.cd34d4695b7a5e522990.jpg",
+    "static/media/logo.svg": "/SoftRyzen/static/media/logo.638cc1bbcbc5b1a1aa81d1a7b58d7833.svg",
     "index.html": "/SoftRyzen/index.html",
-    "main.7acaea2f.css.map": "/SoftRyzen/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/SoftRyzen/static/js/main.07d3183d.js.map"
+    "main.41b09c37.css.map": "/SoftRyzen/static/css/main.41b09c37.css.map",
+    "main.ebe9d216.js.map": "/SoftRyzen/static/js/main.ebe9d216.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.41b09c37.css",
+    "static/js/main.ebe9d216.js"
   ]
 }
