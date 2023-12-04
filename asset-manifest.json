@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SoftRyzen/static/css/main.0a9b3d1a.css",
-    "main.js": "/SoftRyzen/static/js/main.3d3e3150.js",
+    "main.css": "/SoftRyzen/static/css/main.a8d782c0.css",
+    "main.js": "/SoftRyzen/static/js/main.97d11e88.js",
     "static/media/heroImgx2.jpg": "/SoftRyzen/static/media/heroImgx2.4998894fa9c548f2668b.jpg",
     "static/media/heroImgTabletx2.jpg": "/SoftRyzen/static/media/heroImgTabletx2.53561f2cccfe50f75ce7.jpg",
     "static/media/heroImgx1.jpg": "/SoftRyzen/static/media/heroImgx1.ba6d427292c9db31412b.jpg",
@@ -19,11 +19,11 @@
     "static/media/arrow-right.svg": "/SoftRyzen/static/media/arrow-right.8139fd332feda4676da7623a70121059.svg",
     "static/media/menu.svg": "/SoftRyzen/static/media/menu.03e96d8790194653b6ccfb63ad04f462.svg",
     "static/media/close-light.svg": "/SoftRyzen/static/media/close-light.12cebd6aa643e468e07d8bfa1513828a.svg",
-    "main.0a9b3d1a.css.map": "/SoftRyzen/static/css/main.0a9b3d1a.css.map",
-    "main.3d3e3150.js.map": "/SoftRyzen/static/js/main.3d3e3150.js.map"
+    "main.a8d782c0.css.map": "/SoftRyzen/static/css/main.a8d782c0.css.map",
+    "main.97d11e88.js.map": "/SoftRyzen/static/js/main.97d11e88.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a9b3d1a.css",
-    "static/js/main.3d3e3150.js"
+    "static/css/main.a8d782c0.css",
+    "static/js/main.97d11e88.js"
   ]
 }
