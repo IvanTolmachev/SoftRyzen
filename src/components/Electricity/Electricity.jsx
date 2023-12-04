@@ -33,7 +33,7 @@ const Counter = () => {
   };
 
   return (
-    <Section>
+    <Section >
       <ElectricityTitle>
         Electricity we produced <br />
         for all time

@@ -11,6 +11,7 @@ export const HeaderBox = styled.div`
 `;
 
 export const Header = styled.header`
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;

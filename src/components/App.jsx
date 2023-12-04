@@ -5,6 +5,7 @@ import MainComponent from './Main/Main';
 import { Main } from 'settings/Shared';
 import ElectricityComponent from './Electricity/Electricity';
 import FAQComponent from './FAQ/FAQ';
+import ContactUs from './ContactUs/ContactUs';
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
           <AboutComponent />
           <ElectricityComponent />
           <FAQComponent />
+          <ContactUs />
         </Main>
       </Container>
     </>
