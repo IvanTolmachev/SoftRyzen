@@ -1,4 +1,4 @@
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import styled from 'styled-components';
 import { ReactComponent as IconArrow } from '../../images/arrow-right.svg';
 import { ReactComponent as IconCross } from '../../images/close-light.svg';
