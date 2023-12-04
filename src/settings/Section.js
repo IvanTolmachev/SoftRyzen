@@ -5,17 +5,17 @@ export const Section = styled.section`
   min-width: 320px;
   margin-left: auto;
   margin-right: auto;
-  padding: 36px 0;
+  padding-bottom: 36px;
 
   ${variables.breakPoints.mobile} {
     max-width: 480px;
   }
   ${variables.breakPoints.tablet} {
-    padding: 100px 0;
+    padding-bottom: 100px;
     max-width: 768px;
   }
   ${variables.breakPoints.desktop} {
-    padding: 120px 0;
+    padding-bottom: 120px;
     max-width: 1440px;
   }
 `;

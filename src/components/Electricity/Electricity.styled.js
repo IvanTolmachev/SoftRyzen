@@ -13,8 +13,9 @@ export const ElectricityDistanceBox = styled.h2`
 
 export const ElectricityTitle = styled.h2`
   text-align: center;
-  font-size: 28px;
   font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
   line-height: 1;
   text-transform: uppercase;
   ${variables.breakPoints.tablet} {
@@ -52,5 +53,19 @@ export const ElectricityDistance = styled.p`
   }
   ${variables.breakPoints.desktop} {
     font-size: 164px;
+  }
+`;
+
+export const SpankWh = styled.span`
+  font-size: 24px;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: 1;
+
+  ${variables.breakPoints.tablet} {
+    font-size: 28px;
+  }
+  ${variables.breakPoints.desktop} {
+    font-size: 48px;
   }
 `;

@@ -11,10 +11,12 @@ export const Container = styled.div`
   }
   ${variables.breakPoints.tablet} {
     padding: 0 30px;
+    width: 768px;
     max-width: 768px;
   }
   ${variables.breakPoints.desktop} {
     padding: 0 100px;
+    width: 1440px;
     max-width: 1440px;
   }
 `;

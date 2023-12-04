@@ -1,7 +1,19 @@
 import React, { useState, useRef } from 'react';
 import { Section } from 'settings/Section';
 import { CSSTransition } from 'react-transition-group';
-import { FAQBox, FAQQuestion, FAQQuestions, TitleQuestion } from './FAQ.styled';
+import {
+  ContactUsQuestion,
+  FAQBlock,
+  FAQBox,
+  FAQContactUs,
+  FAQModule,
+  FAQQuestion,
+  FAQQuestions,
+  FAQTitle,
+  TextQuestion,
+  TitleQuestion,
+} from './FAQ.styled';
+import ButtonCircle from 'components/Buttons/ButtonCircle';
 
 const FAQComponent = () => {
   const [expandedBlock, setExpandedBlock] = useState(1);
@@ -13,6 +25,10 @@ const FAQComponent = () => {
 
   const handleToggleInfo = id => {
     setExpandedBlock(prev => (prev === id ? null : id));
+  };
+
+  const handleClick = () => {
+    console.log('Button clicked!');
   };
 
   const faqBlocks = [
@@ -55,37 +71,53 @@ const FAQComponent = () => {
 
   return (
     <Section>
-      <FAQBox>
-        {faqBlocks.map(block => (
-          <FAQQuestions key={block.id}>
-            <FAQQuestion>
-              <div
-                className="question-icon"
-                onClick={() => handleToggleInfo(block.id)}
-              >
-                {expandedBlock === block.id ? '-' : '+'}
-              </div>
-              <div>
-                <TitleQuestion onClick={() => handleToggleInfo(block.id)}>
-                  {block.question}
-                </TitleQuestion>
+      <FAQBlock>
+        <FAQTitle>
+          Frequently Asked <br /> Questions
+        </FAQTitle>
+        <FAQModule>
+          <FAQBox>
+            {faqBlocks.map(block => (
+              <FAQQuestions key={block.id}>
+                <FAQQuestion>
+                  <div
+                    className="question-icon"
+                    onClick={() => handleToggleInfo(block.id)}
+                  >
+                    {expandedBlock === block.id ? '-' : '+'}
+                  </div>
+                  <div>
+                    <TitleQuestion onClick={() => handleToggleInfo(block.id)}>
+                      {block.question}
+                    </TitleQuestion>
 
-                <CSSTransition
-                  in={expandedBlock === block.id}
-                  timeout={300}
-                  classNames="alert"
-                  unmountOnExit
-                  nodeRef={nodeRefs.current[block.id - 1]}
-                >
-                  <p className="alert" ref={nodeRefs.current[block.id - 1]}>
-                    {block.answer}
-                  </p>
-                </CSSTransition>
-              </div>
-            </FAQQuestion>
-          </FAQQuestions>
-        ))}
-      </FAQBox>
+                    <CSSTransition
+                      in={expandedBlock === block.id}
+                      timeout={300}
+                      classNames="alert"
+                      unmountOnExit
+                      nodeRef={nodeRefs.current[block.id - 1]}
+                    >
+                      <TextQuestion
+                        className="alert"
+                        ref={nodeRefs.current[block.id - 1]}
+                      >
+                        {block.answer}
+                      </TextQuestion>
+                    </CSSTransition>
+                  </div>
+                </FAQQuestion>
+              </FAQQuestions>
+            ))}
+          </FAQBox>
+          <FAQContactUs>
+            <ContactUsQuestion>
+              Didn't find the answer to your question?
+            </ContactUsQuestion>
+            <ButtonCircle onClick={handleClick} label="Get in touch" />
+          </FAQContactUs>
+        </FAQModule>
+      </FAQBlock>
     </Section>
   );
 };
